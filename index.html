@@ -1,11 +1,28 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+  <title>Страница регистрации</title>
+  <link rel="stylesheet" type="text/css" href="styles.css">
 </head>
 <body>
-    
+  <div class="container">
+    <h2>Регистрация</h2>
+    <form action="register.php" method="post">
+      <label for="name">Имя:</label>
+      <input type="text" id="name" name="name" required>
+      
+      <label for="surname">Фамилия:</label>
+      <input type="text" id="surname" name="surname" required>
+      
+      <label for="email">Почта:</label>
+      <input type="email" id="email" name="email" required>
+      
+      <label for="age">Возраст:</label>
+      <input type="number" id="age" name="age" required>
+      
+      <input type="submit" value="Зарегистрироваться">
+      <a href="main.html">Перейти на основную страницу</a>
+    </form>
+  </div>
 </body>
 </html>
