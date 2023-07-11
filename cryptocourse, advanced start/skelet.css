@@ -1,0 +1,68 @@
+/* CSS styles for your CryptoCourse website */
+
+/* Reset default styles */
+html, body, header, main, section, footer {
+    margin: 0;
+    padding: 0;
+}
+
+/* Set general styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+    color: #333;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+}
+
+nav {
+    /* Styles for navigation menu */
+}
+
+main {
+    padding: 20px;
+}
+
+section.course {
+    margin-bottom: 30px;
+}
+
+h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+h3 {
+    font-size: 18px;
+    margin-bottom: 5px;
+}
+
+.lesson {
+    margin-bottom: 20px;
+}
+
+.video {
+    /* Styles for video player */
+}
+
+.test {
+    /* Styles for test/quiz section */
+}
+
+.signup, .signin {
+    margin-top: 30px;
+    /* Styles for sign up and sign in sections */
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+}
+
+/* Additional styles specific to your website design */
+/* Customize as per your requirements */
