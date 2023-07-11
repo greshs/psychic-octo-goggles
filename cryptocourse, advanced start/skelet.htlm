@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Your website description here">
+    <title>CryptoCourse</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <nav>
+            <!-- Your navigation menu here -->
+        </nav>
+    </header>
+
+    <!-- Main Content -->
+    <main>
+        <!-- Course: Introduction to Crypto -->
+        <section class="course">
+            <h2>Introduction to Crypto</h2>
+            <!-- Brief of the Lesson -->
+            <div class="lesson">
+                <h3>Lesson 1: Introduction to Cryptocurrencies</h3>
+                <p>Brief description of the lesson here.</p>
+                <!-- Video -->
+                <div class="video">
+                    <!-- Embedded video code or video player here -->
+                </div>
+                <!-- Test with 5 quizzes -->
+                <div class="test">
+                    <!-- Quiz questions and options here -->
+                </div>
+            </div>
+            <!-- Repeat the structure for other lessons in Introduction to Crypto course -->
+        </section>
+
+        <!-- Course: Income from Crypto -->
+        <section class="course">
+            <h2>Income from Crypto</h2>
+            <!-- Brief of the Lesson -->
+            <div class="lesson">
+                <h3>Lesson 1: Crypto Trading Strategies</h3>
+                <p>Brief description of the lesson here.</p>
+                <!-- Video -->
+                <div class="video">
+                    <!-- Embedded video code or video player here -->
+                </div>
+                <!-- Test with 5 quizzes -->
+                <div class="test">
+                    <!-- Quiz questions and options here -->
+                </div>
+            </div>
+            <!-- Repeat the structure for other lessons in Income from Crypto course -->
+        </section>
+
+        <!-- PLACEMENT FOR VIDEO -->
+        <!-- Repeat the video placement code for all 20 videos -->
+
+        <!-- Sign up and Sign in sections -->
+        <section class="signup">
+            <!-- Sign up form here -->
+        </section>
+        <section class="signin">
+            <!-- Sign in form here -->
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <!-- Footer content here -->
+    </footer>
+</body>
+</html>
