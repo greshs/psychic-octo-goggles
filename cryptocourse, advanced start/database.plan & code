@@ -31,3 +31,19 @@ Identify a primary key for the Users table. Typically, you can use an auto-incre
 Step 7: Create the Database Schema
 
 Using the chosen DBMS, write the SQL code to create the Users table with the specified columns, data types, constraints, and primary key.
+
+code:
+
+CREATE TABLE Users (
+    user_id INT AUTO_INCREMENT PRIMARY KEY,
+    mail VARCHAR(255),
+    login_name VARCHAR(50),
+    phone_number VARCHAR(20),
+    real_name VARCHAR(100),
+    city VARCHAR(100),
+    ip_address VARCHAR(20),
+    device VARCHAR(100),
+    active_courses TEXT,
+    finished_courses TEXT
+);
+
