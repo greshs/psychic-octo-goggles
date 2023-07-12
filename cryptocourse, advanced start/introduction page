@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Learn cryptocurrency basics and strategies for generating income from crypto. Join our comprehensive crypto course today!">
+    <meta name="keywords" content="cryptocurrency, crypto course, introduction to crypto, income from crypto">
+    <title>CryptoCourse</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#courses">Courses</a>
+                    <ul>
+                        <li><a href="#introduction">Introduction to Crypto</a></li>
+                        <li><a href="#income">Income from Crypto</a></li>
+                    </ul>
+                </li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Main Content -->
+    <main>
+        <!-- Start Page -->
+        <section id="home" class="start-page">
+            <h1>Welcome to CryptoCourse!</h1>
+            <p>Start your journey into the world of cryptocurrencies.</p>
+            
+            <!-- Video -->
+            <div class="video-container">
+                <video controls>
+                    <source src="video1.mp4" type="video/mp4">
+                    Your browser does not support the video tag.
+                </video>
+            </div>
+
+            <!-- Photo -->
+            <div class="photo-container">
+                <img src="photo1.jpg" alt="Course Photo">
+            </div>
+
+            <!-- Animation -->
+            <div class="animation-container">
+                <div class="animation">
+                    <!-- Animation content here -->
+                </div>
+            </div>
+
+            <!-- Labels and Buttons -->
+            <div class="labels-buttons">
+                <div class="label">
+                    <p>Introduction to Crypto</p>
+                    <a href="#introduction" class="button">Start Course</a>
+                </div>
+                <div class="label">
+                    <p>Income from Crypto</p>
+                    <a href="#income" class="button">Start Course</a>
+                </div>
+            </div>
+        </section>
+
+        <!-- Course: Introduction to Crypto -->
+        <section class="course" id="introduction">
+            <!-- Course content -->
+        </section>
+
+        <!-- Course: Income from Crypto -->
+        <section class="course" id="income">
+            <!-- Course content -->
+        </section>
+
+        <!-- Repeat the structure for other courses -->
+
+        <!-- PLACEMENT FOR VIDEO -->
+        <!-- Repeat the video placement code for all 20 videos -->
+
+        <!-- Sign up and Sign in sections -->
+        <section class="signup" id="signup">
+            <h2>Sign Up</h2>
+            <!-- Sign up form here -->
+        </section>
+        <section class="signin" id="signin">
+            <h2>Sign In</h2>
+            <!-- Sign in form here -->
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <!-- Footer content here -->
+    </footer>
+</body>
+</html>
